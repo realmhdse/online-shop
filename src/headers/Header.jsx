@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Call from "../icons/Call";
-import Headers from "./Headers";
+import SubHeader from "./SubHeader";
 import OpenModal from "../OpenModal";
 import ClickCardModal from "../Modals/ClickCartModal";
 import { Link } from "react-router-dom";
@@ -33,7 +33,7 @@ const Header=()=>{
             </div>
             <button className="bg-white text-amber-600 w-20 mr-5  rounded-md p-1 text-xl">Sign in</button>
         </div>
-            <Headers handleCartClick={()=> setCheckoutModalOpen(true)}/>
+            <SubHeader handleCartClick={()=> setCheckoutModalOpen(true)}/>
             <OpenModal 
             style={modalStyles}
             isOpen={checkoutModalOpen}
