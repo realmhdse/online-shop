@@ -35,9 +35,7 @@ return(
          {sumOfBasket()}
         </div>
         </div>
-           
-                
-            
+  
                 
         </div>
         

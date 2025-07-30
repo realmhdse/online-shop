@@ -30,7 +30,6 @@ const Header=()=>{
                 <p >Get 50%  Off on Selected Items   |   Shop Now</p>
 
             </div>
-            <button className="bg-white text-amber-600 w-20 mr-5  rounded-md p-1 text-xl">Sign in</button>
         </div>
             <SubHeader handleCartClick={()=> setCheckoutModalOpen(true)}/>
             <OpenModal 
