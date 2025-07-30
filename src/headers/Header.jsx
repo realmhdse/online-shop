@@ -3,7 +3,6 @@ import Call from "../icons/Call";
 import SubHeader from "./SubHeader";
 import OpenModal from "../OpenModal";
 import ClickCardModal from "../Modals/ClickCartModal";
-import { Link } from "react-router-dom";
 const Header=()=>{
     const modalStyles = {
         top: "50%",
